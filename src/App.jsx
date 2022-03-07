@@ -16,7 +16,7 @@ margin: "30px",
   }
   return (
    <>
-  <div style={mystyle} className="addItem">
+  <div  className="addItem">
     <span style={mystyle}>Books:</span>
     <button  style={spaceC} className="addBook">
         +
@@ -26,7 +26,7 @@ margin: "30px",
     </button>
     <span style={mystyle}  className="totalBooks">13</span>
 </div>
-<div style={mystyle} className="addItem">
+<div className="addItem">
     <span style={mystyle}>Pens:</span>
     <button style={spaceC} className="addPen">
         +
@@ -36,7 +36,7 @@ margin: "30px",
     </button>
     <span style={mystyle} className="totalPen">10</span>
 </div>
-<div style={mystyle} className="addItem">
+<div  className="addItem">
     <span style={mystyle}>Notebooks:</span>
     <button style={spaceC} className="addNotebook">
         +
@@ -46,7 +46,7 @@ margin: "30px",
     </button>
     <span style={mystyle} className="totalNotebook">44</span>
 </div>
-<div style={mystyle} className="addItem">
+<div  className="addItem">
     <span style={mystyle}>Inkpens:</span>
     <button style={spaceC} className="addInkpen">
         +
