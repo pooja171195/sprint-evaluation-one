@@ -11,13 +11,13 @@ function App(){
       <div className='additems'>
         <span>Books:</span>
         <button  style={spaceC} className="addBook" onClick={()=>{
-          setCount1(count+1)
+          setCount1(count1+1)
           setTotal(total+1)
         }}>
         +
     </button>
     <button  style={spaceC} className="remBook" onClick={()=>{
-      setCount1(count-1)
+      setCount1(count1-1)
       setTotal(total-1)
     
     }}>
