@@ -11,6 +11,9 @@ function App() {
   const spaceC={
 margin: "30px",
   }
+  const total={
+    align:"center",
+  }
   return (
    <>
   <div style={mystyle} className="addItem">
@@ -23,37 +26,37 @@ margin: "30px",
     </button>
     <span style={mystyle}  className="totalBooks">13</span>
 </div>
-<div className="addItem">
-    <span>Pens:</span>
-    <button className="addPen">
+<div style={mystyle} className="addItem">
+    <span style={mystyle}>Pens:</span>
+    <button style={spaceC} className="addPen">
         +
     </button>
-    <button className="remPen">
+    <button style={spaceC} className="remPen">
         -
     </button>
-    <span className="totalPen">10</span>
+    <span style={mystyle} className="totalPen">10</span>
 </div>
-<div className="addItem">
-    <span>Notebooks:</span>
-    <button className="addNotebook">
+<div style={mystyle} className="addItem">
+    <span style={mystyle}>Notebooks:</span>
+    <button style={spaceC} className="addNotebook">
         +
     </button>
-    <button className="remNotebook">
+    <button style={spaceC} className="remNotebook">
         -
     </button>
-    <span className="totalNotebook">44</span>
+    <span style={mystyle} className="totalNotebook">44</span>
 </div>
-<div className="addItem">
-    <span>Inkpens:</span>
-    <button className="addInkpen">
+<div style={mystyle} className="addItem">
+    <span style={mystyle}>Inkpens:</span>
+    <button style={spaceC} className="addInkpen">
         +
     </button>
-    <button className="remInkpen">
+    <button style={spaceC} className="remInkpen">
         -
     </button>
-    <span className="totalInkpen">78</span>
+    <span style={mystyle} className="totalInkpen">78</span>
 </div>
-<div className="total">1</div>
+<div style={total} className="total">1</div>
    </>
   
   );
