@@ -17,6 +17,7 @@ export function addBook(){
         }
       
     }}>Subtract</button>
+      document.getElementById('addBook')
   </div>
 }
 // ReactDOM.render(
