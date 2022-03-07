@@ -56,6 +56,7 @@ margin: "30px",
     </button>
     <span style={mystyle} className="totalInkpen">78</span>
 </div>
+<span style={mystyle}>Total Items:</span>
 <div style={total} className="total">1</div>
    </>
   
