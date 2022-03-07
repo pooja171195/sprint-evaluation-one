@@ -11,13 +11,13 @@ function App(){
     <div className='body'>
       <div className='additems'>
         <span>Books:</span>
-        <button  style={spaceC} className="addBook" onClick={()=>{
+        <button  className="addBook" onClick={()=>{
           setCount1(count1+1)
           setTotal(total+1)
         }}>
         +
     </button>
-    <button  style={spaceC} className="remBook" onClick={()=>{
+    <button   className="remBook" onClick={()=>{
       setCount1(count1-1)
       setTotal(total-1)
     
@@ -28,13 +28,13 @@ function App(){
       
       <div className='additems'>
       <span>Pens:</span>
-      <button  style={spaceC} className="addPen" onClick={()=>{
+      <button  className="addPen" onClick={()=>{
         setCount2(count2+1)
         setTotal(total+1)
       }}>
       +
   </button>
-  <button  style={spaceC} className="remPen" onClick={()=>{
+  <button   className="remPen" onClick={()=>{
     setCount2(count2-1)
     setTotal(total-1)
   
@@ -44,13 +44,13 @@ function App(){
       </div>
       <div className='additems'>
         <span>Notebooks:</span>
-        <button  style={spaceC} className="addNotebook" onClick={()=>{
+        <button   className="addNotebook" onClick={()=>{
           setCount2(count2+1)
           setTotal(total+1)
         }}>
         +
     </button>
-    <button  style={spaceC} className="remNotebook" onClick={()=>{
+    <button   className="remNotebook" onClick={()=>{
       setCount3(count3-1)
       setTotal(total-1)
     
