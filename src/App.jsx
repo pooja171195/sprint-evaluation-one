@@ -4,12 +4,27 @@ import './App.css';
 function App() {
   return (
    <>
-   <h1>hello world</h1>
-   <input type="text" name="" className='add-note'/>
-   <button id="sort">Sort</button>
-   <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+  <div className="addItem">
+    <span>Books:</span>
+    <button className="addBook">
+        +
+    </button>
+    <button className="remBook">
+        -
+    </button>
+    <span className="totalBooks">1</span>
+</div>
+<div className="addItem">
+    <span>Books:</span>
+    <button className="addPen">
+        +
+    </button>
+    <button className="remPen">
+        -
+    </button>
+    <span className="totalPen">1</span>
+</div>
+
    </>
   
   );
