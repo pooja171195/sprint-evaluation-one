@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const mystyle={
+    color:"black",
+    padding: "40px",
+
+  }
   return (
    <>
   <div className="addItem">
@@ -15,7 +20,7 @@ function App() {
     <span className="totalBooks">13</span>
 </div>
 <div className="addItem">
-    <span>Penss:</span>
+    <span>Pens:</span>
     <button className="addPen">
         +
     </button>
