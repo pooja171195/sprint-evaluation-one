@@ -1,6 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-import './index.js'
+function App(){
+  const [count1,setCount1] = useState(13)
+  const [count2,setCount2] = useState(10)
+  const [count3,setCount3] = useState(44)
+  const [count4,setCount4] = useState(78)
+  const [total,setTotal] = useState(145)
+  return(
+    <div className='body'>
+      <div className='additems'>
+        <span>Books:</span>
+        <button  style={spaceC} className="addBook" onClick={()=>{
+          setCount1(count+1)
+          setTotal(total+1)
+        }}>
+        +
+    </button>
+    <button  style={spaceC} className="remBook" onClick={()=>{
+      setCount1(count-1)
+      setTotal(total-1)
+    
+    }}>
+        -
+    </button>
+        </div>
+      </div>
+  )
+}
 
 function App() {
   const mystyle={
