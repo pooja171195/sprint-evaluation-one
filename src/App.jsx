@@ -5,16 +5,17 @@ function App() {
   const mystyle={
     color:"black",
     padding: "40px",
+    margin: "10px",
 
   }
   return (
    <>
   <div style={mystyle} className="addItem">
     <span >Books:</span>
-    <button style={mystyle}  className="addBook">
+    <button   className="addBook">
         +
     </button>
-    <button  style={mystyle}  className="remBook">
+    <button   className="remBook">
         -
     </button>
     <span style={mystyle}  className="totalBooks">13</span>
