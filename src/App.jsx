@@ -25,7 +25,41 @@ function App(){
         -
     </button>
         </div>
+      
+      <div className='additems'>
+      <span>Pens:</span>
+      <button  style={spaceC} className="addPen" onClick={()=>{
+        setCount2(count2+1)
+        setTotal(total+1)
+      }}>
+      +
+  </button>
+  <button  style={spaceC} className="remPen" onClick={()=>{
+    setCount2(count2-1)
+    setTotal(total-1)
+  
+  }}>
+      -
+  </button>
       </div>
+      <div className='additems'>
+        <span>Notebooks:</span>
+        <button  style={spaceC} className="addNotebook" onClick={()=>{
+          setCount2(count2+1)
+          setTotal(total+1)
+        }}>
+        +
+    </button>
+    <button  style={spaceC} className="remNotebook" onClick={()=>{
+      setCount3(count3-1)
+      setTotal(total-1)
+    
+    }}>
+        -
+    </button>
+        </div>
+      </div>
+    
   )
 }
 
