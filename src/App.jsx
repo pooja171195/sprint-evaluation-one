@@ -8,14 +8,17 @@ function App() {
     margin: "10px",
 
   }
+  const spaceC={
+margin: "30px",
+  }
   return (
    <>
   <div style={mystyle} className="addItem">
-    <span >Books:</span>
-    <button   className="addBook">
+    <span style={mystyle}>Books:</span>
+    <button  style={spaceC} className="addBook">
         +
     </button>
-    <button   className="remBook">
+    <button  style={spaceC} className="remBook">
         -
     </button>
     <span style={mystyle}  className="totalBooks">13</span>
