@@ -10,14 +10,14 @@ function App() {
   return (
    <>
   <div style={mystyle} className="addItem">
-    <span>Books:</span>
-    <button className="addBook">
+    <span >Books:</span>
+    <button style={mystyle}  className="addBook">
         +
     </button>
-    <button className="remBook">
+    <button  style={mystyle}  className="remBook">
         -
     </button>
-    <span className="totalBooks">13</span>
+    <span style={mystyle}  className="totalBooks">13</span>
 </div>
 <div className="addItem">
     <span>Pens:</span>
